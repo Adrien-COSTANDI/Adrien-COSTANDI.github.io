@@ -1,6 +1,6 @@
 {
-  "vaultName": "Obsidian Vault",
-  "lastExport": 1744151037967,
+  "vaultName": "Java",
+  "lastExport": 1745321063073,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -8,7 +8,7 @@
   "files": [
     "cours/0. Zéparti.md",
     "cours/1. Java.md",
-    "cours/1.5 Fonctionnement de Java.md",
+    "cours/1.5. Fonctionnement de Java.md",
     "cours/2. JRE ou JDK.md",
     "cours/3. Installer un IDE.md",
     "cours/4. Hello World!.md",
@@ -19,8 +19,10 @@
     "cours/9. Expression vs instruction (statement).md",
     "cours/10. if, switch-case.md",
     "cours/11. for, while, do while.md",
-    "cours/12. Les tableaux.md",
-    "cours/13. Les objets.md",
+    "cours/11.5. Les méthodes.md",
+    "cours/12. Les objets.md",
+    "cours/13. Les collections.md",
+    "cours/14. Les tableaux.md",
     "images/newJavaClass.png",
     "images/Pasted image 20250315230525.png",
     "images/Pasted image 20250318135225.png",
@@ -45,6 +47,7 @@
     "images/Pasted image 20250402200346.png",
     "images/Pasted image 20250407112912.png",
     "images/Pasted image 20250407140926.png",
+    "images/Pasted image 20250421101825.png",
     "index.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -79,327 +82,345 @@
   ],
   "fileInfo": {
     "images/Pasted image 20250315230525.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 49012,
       "exportedPath": "images/Pasted image 20250315230525.png",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "cours/1. Java.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 3556,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 3560,
       "exportedPath": "cours/1. Java.html",
       "dependencies": []
     },
     "cours/2. JRE ou JDK.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 1311,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 1352,
       "exportedPath": "cours/2. JRE ou JDK.html",
       "dependencies": []
     },
     "cours/3. Installer un IDE.md": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 1294,
       "exportedPath": "cours/3. Installer un IDE.html",
       "dependencies": []
     },
     "cours/4. Hello World!.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 5879,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 5885,
       "exportedPath": "cours/4. Hello World!.html",
       "dependencies": []
     },
     "cours/5. Structure d'un programme.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 1442,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 1448,
       "exportedPath": "cours/5. Structure d'un programme.html",
       "dependencies": []
     },
     "cours/6. Syntaxe.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 5649,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 5641,
       "exportedPath": "cours/6. Syntaxe.html",
       "dependencies": []
     },
     "cours/7. Variables.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 6715,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 7183,
       "exportedPath": "cours/7. Variables.html",
       "dependencies": []
     },
     "cours/8. Opérateurs.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 7462,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 9890,
       "exportedPath": "cours/8. Opérateurs.html",
       "dependencies": []
     },
     "images/Pasted image 20250318135225.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 103476,
       "exportedPath": "images/Pasted image 20250318135225.png",
       "dependencies": []
     },
     "images/Pasted image 20250318142025.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 22565,
       "exportedPath": "images/Pasted image 20250318142025.png",
       "dependencies": []
     },
     "images/Pasted image 20250318143754.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 95833,
       "exportedPath": "images/Pasted image 20250318143754.png",
       "dependencies": []
     },
     "images/Pasted image 20250318144040.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 108632,
       "exportedPath": "images/Pasted image 20250318144040.png",
       "dependencies": []
     },
     "images/Pasted image 20250318144822.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 130369,
       "exportedPath": "images/Pasted image 20250318144822.png",
       "dependencies": []
     },
     "images/Pasted image 20250318145625.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 117531,
       "exportedPath": "images/Pasted image 20250318145625.png",
       "dependencies": []
     },
     "images/Pasted image 20250318145708.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 107635,
       "exportedPath": "images/Pasted image 20250318145708.png",
       "dependencies": []
     },
     "cours/0. Zéparti.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 1780,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 1800,
       "exportedPath": "cours/0. Zéparti.html",
       "dependencies": []
     },
-    "cours/1.5 Fonctionnement de Java.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 6560,
-      "exportedPath": "cours/1.5 Fonctionnement de Java.html",
-      "dependencies": []
-    },
     "cours/9. Expression vs instruction (statement).md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 1718,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 1730,
       "exportedPath": "cours/9. Expression vs instruction (statement).html",
       "dependencies": []
     },
     "cours/10. if, switch-case.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 7474,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 7487,
       "exportedPath": "cours/10. if, switch-case.html",
       "dependencies": []
     },
     "cours/11. for, while, do while.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 6029,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 6030,
       "exportedPath": "cours/11. for, while, do while.html",
       "dependencies": []
     },
     "images/Pasted image 20250325120446.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 141200,
       "exportedPath": "images/Pasted image 20250325120446.png",
       "dependencies": []
     },
     "images/Pasted image 20250325120808.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 163761,
       "exportedPath": "images/Pasted image 20250325120808.png",
       "dependencies": []
     },
     "images/Pasted image 20250402135705.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 64554,
       "exportedPath": "images/Pasted image 20250402135705.png",
       "dependencies": []
     },
     "images/Pasted image 20250402135805.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 65619,
       "exportedPath": "images/Pasted image 20250402135805.png",
       "dependencies": []
     },
     "images/Pasted image 20250402141644.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 51349,
       "exportedPath": "images/Pasted image 20250402141644.png",
       "dependencies": []
     },
     "images/Pasted image 20250402142717.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 106520,
       "exportedPath": "images/Pasted image 20250402142717.png",
       "dependencies": []
     },
     "images/Pasted image 20250402180529.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 104096,
       "exportedPath": "images/Pasted image 20250402180529.png",
       "dependencies": []
     },
     "images/Pasted image 20250402181100.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 109916,
       "exportedPath": "images/Pasted image 20250402181100.png",
       "dependencies": []
     },
     "images/Pasted image 20250402183319.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 29939,
       "exportedPath": "images/Pasted image 20250402183319.png",
       "dependencies": []
     },
     "images/Pasted image 20250402183544.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 168617,
       "exportedPath": "images/Pasted image 20250402183544.png",
       "dependencies": []
     },
     "images/Pasted image 20250402184613.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 103170,
       "exportedPath": "images/Pasted image 20250402184613.png",
       "dependencies": []
     },
     "images/Pasted image 20250402184645.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 133989,
       "exportedPath": "images/Pasted image 20250402184645.png",
       "dependencies": []
     },
     "images/Pasted image 20250402200346.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 51058,
       "exportedPath": "images/Pasted image 20250402200346.png",
       "dependencies": []
     },
     "images/newJavaClass.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 159253,
       "exportedPath": "images/newJavaClass.png",
       "dependencies": []
     },
     "images/Pasted image 20250407112912.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 39746,
       "exportedPath": "images/Pasted image 20250407112912.png",
       "dependencies": []
     },
-    "cours/12. Les tableaux.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 6119,
-      "exportedPath": "cours/12. Les tableaux.html",
-      "dependencies": []
-    },
-    "cours/13. Les objets.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 2213,
-      "exportedPath": "cours/13. Les objets.html",
-      "dependencies": []
-    },
     "images/Pasted image 20250407140926.png": {
-      "modifiedTime": 1744151037967,
+      "modifiedTime": 1745321063073,
       "sourceSize": 22668,
       "exportedPath": "images/Pasted image 20250407140926.png",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1744151037967,
-      "sourceSize": 36,
+      "modifiedTime": 1745321063073,
+      "sourceSize": 532,
       "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "cours/1.5. Fonctionnement de Java.md": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 6567,
+      "exportedPath": "cours/1.5. Fonctionnement de Java.html",
+      "dependencies": []
+    },
+    "cours/11.5. Les méthodes.md": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 6358,
+      "exportedPath": "cours/11.5. Les méthodes.html",
+      "dependencies": []
+    },
+    "cours/12. Les objets.md": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 10193,
+      "exportedPath": "cours/12. Les objets.html",
+      "dependencies": []
+    },
+    "cours/13. Les collections.md": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 0,
+      "exportedPath": "cours/13. Les collections.html",
+      "dependencies": []
+    },
+    "cours/14. Les tableaux.md": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 6120,
+      "exportedPath": "cours/14. Les tableaux.html",
+      "dependencies": []
+    },
+    "images/Pasted image 20250421101825.png": {
+      "modifiedTime": 1745321063073,
+      "sourceSize": 9693,
+      "exportedPath": "images/Pasted image 20250421101825.png",
       "dependencies": []
     }
   }
